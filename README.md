@@ -1,4 +1,5 @@
-# Safe-Dsumption
+<h1> Safe Dsumption</h1>
+
 ### Inspiration
 
 When summer is coming, people are so excited to go to the beaches to play with friends and lie down on blanket for sunbathing. Although sunbathing helps increasing the vitamins D level, which most adults do not have enough, but sunbathing causes problems because repeated UV light exposure that results in sunburn. According to Mayor Clinic, sunburn increases the risk of other skin damage, such as dark spots, rough spots, and dry or wrinkled skin. It also raises the risk of skin cancers such as melanoma. According to Office of Surgeon General, more than 400,000 cases of skin cancer, about 6,000 of which are melanomas, are estimated to be related to indoor tanning in the U.S. each year.
@@ -49,3 +50,6 @@ It's been a long time since I haven't code in HTML/CSS. Therefore, it took me a 
 - [https://www.gbhealthwatch.com/Did-you-know-Fitzpatrick-Skin-Type.php]
 - [https://www.hhs.gov/surgeongeneral/reports-and-publications/skin-cancer/fact-sheet/index.html]
 - [https://www.mayoclinic.org/diseases-conditions/sunburn/symptoms-causes/syc-20355922]
+
+### Other links
+- [https://devpost.com/software/safe-dsumption]
