@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="App.css" title="style" />
+    <title class="title">Safe Dsumption</title>
+</head>
+
+<body>
+    <div class="background">
+        <div>
+            <ul class="nav">
+
+                <a id="SafeDsumption" href="Home.html">Safe Dsumption</a>
+                <li> <a id="HOME" href="Home.html">Home</a></li>
+                <li> <a id="Quiz" href="skinTypeQuiz.html">Skin Type Quiz</a></li>
+
+            </ul>
+        </div>
+
+
+        <img src="./sunBeach.svg" class="logo" alt="logo">
+        <form>
+            <div class="input">
+                <input type="text" class="locationValue" placeholder="Enter your location">
+                <br>
+
+                <input id="skinType" class="button" type="submit" value="Check">
+                <br>
+            </div>
+
+            <div class="weatherContainer">
+                <h1 class="locationName"></h1>
+                <div id="icon"><img id="wicon" class="icon" width="100px" height="100px" src="" alt=""></div>
+
+                <h2 class="temperature"></h2>
+                <h2 class="description"></h2>
+                <h3 id="latitude" class="latitude"></h3>
+                <h3 id="longtitude" class="longtitude"></h3>
+                <img src="" alt="">
+                <iframe src="//www.epa.gov/sites/production/files/widgets/ef-uvindex.html" id="uv" width="225"
+                    height="150" scrolling="no" frameborder="0" marginwidth="3" marginheight="0">
+                </iframe>
+                <div class="conversionBox">
+                    <input id="convertToF" class="convertToF" type="submit" value="°F">
+                    <input id="convertToC" class="convertToC" type="submit" value="°C">
+                    <input id="originalMap" class="originalMap" type="submit" onclick="initMap()" value="Original Map">
+
+                </div>
+                <div class="takeIn">
+                    <table>
+                        <tr>
+                            <th>Skin Type</th>
+                            <th>I</th>
+                            <th>II</th>
+                            <th>III</th>
+                            <th>IV</th>
+                            <th>V</th>
+                            <th>VI</th>
+                        </tr>
+                        <tr>
+                            <td>Low UV (0-2)</td>
+                            <td>15-20m</td>
+                            <td>20-30m</td>
+                            <td>30-40m</td>
+                            <td>40-60m</td>
+                            <td>60-80m</td>
+                            <td>60-80m</td>
+                        </tr>
+                        <tr>
+                            <td>Moderate UV (3-5)</td>
+                            <td>10-15m</td>
+                            <td>15-20m</td>
+                            <td>20-30m</td>
+                            <td>30-40m</td>
+                            <td>40-60m</td>
+                            <td>60-80m</td>
+                        </tr>
+                        <tr>
+                            <td>High UV (6-7)</td>
+                            <td>5-10m</td>
+                            <td>10-15m</td>
+                            <td>15-20m</td>
+                            <td>20-30m</td>
+                            <td>30-40m</td>
+                            <td>40-60m</td>
+                        </tr>
+                        <tr>
+                            <td>Very High UV (8-10)</td>
+                            <td>2-8m</td>
+                            <td>5-10m</td>
+                            <td>10-15m</td>
+                            <td>15-20m</td>
+                            <td>20-30m</td>
+                            <td>30-40m</td>
+                        </tr>
+                        <tr>
+                            <td>Extreme UV (11+)</td>
+                            <td>1-5m</td>
+                            <td>2-8m</td>
+                            <td>5-10m</td>
+                            <td>10-15m</td>
+                            <td>15-20m</td>
+                            <td>20-30m</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+        </form>
+
+        <div id="map">
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgQK1qDEqRStIHr0xvtkABPM1pjk6iufY&callback=initMap&libraries=&v=weekly"
+                async></script>
+
+        </div>
+
+
+
+        <script src="App.js"></script>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+
+</html>
