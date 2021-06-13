@@ -1,5 +1,5 @@
 <h1>Safe Dsumption</h1>
-
+<p>If you download the project and want the website to go live, please make sure that it is in this format 127.0.0.1:5500/Home.html?# </p>
 ### Inspiration
 When summer is coming, people are so excited to go to the beaches to play with friends and lie down on blanket for sunbathing. Although sunbathing helps increasing the vitamins D level, which most adults do not have enough, but sunbathing causes problems because repeated UV light exposure that results in sunburn. According to Mayor Clinic,  sunburn increases the risk of other skin damage, such as dark spots, rough spots, and dry or wrinkled skin. It also raises the risk of skin cancers such as melanoma. According to Office of Surgeon General, more than 400,000 cases of skin cancer, about 6,000 of which are melanomas, are estimated to be related to indoor tanning in the U.S. each year. 
 
