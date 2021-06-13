@@ -31,7 +31,7 @@ It's been a long time since I haven't code in HTML/CSS. Therefore, it took me a 
 ### What we learned
 
 1. Learned how to implement OpenWeatherMap API for the first time.
-2. Learned how to fetch Json data using OpenWeatherMap link
+2. Learned how to fetch Json data from OpenWeatherMap
 3. Learned how to change images with jQuery (change weather icons every time the user enter location)
 4. Learned how to make a multiple-choice form for people to know their skin types
 5. Learned how to be flexible. If this way does not work, try the other way. 
