@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="App.css" title="style" />
+    <title>Safe Dsumption</title>
+</head>
+    <h1>Safe Dsumption</h1>
+<form>
+    <div class="input">
+        <input type="text" class="locationValue" placeholder="Enter your location">
+        <br>
+        <input type="number" class="skinValue" placeholder="Enter your skin type">
+        <br>
+     
+        <!-- <a href="#" id="skinType" class="button">Check</a> -->
+        <input id="skinType" class="button" type="submit" value="Check">
+        <p> Hello World This is testing. Hey there!</p>
+        <br>
+    </div>
+
+    <div class="weatherContainer">
+        <h1 class="locationName"></h1>
+        <h2 class="temperature"></h2>
+        <img src="" alt="">
+    <div class="conversionBox">
+        <input id="convertToF" class="convertToF" type="submit" value="°F">
+        <input id="convertToC" class="convertToC" type="submit" value="°C">
+    </div>
+       
+
+        <!-- <a href="conversion.js" id="skinType" class="button">°C</a> -->
+
+    </div>
+</form>
+    <div id="map">
+        <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgQK1qDEqRStIHr0xvtkABPM1pjk6iufY&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+    </div>
+
+<body>
+    <script src="App.js"></script>
+    <!-- <script src="conversion.js"></script> -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.6.7/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+</body>
+
+</html>

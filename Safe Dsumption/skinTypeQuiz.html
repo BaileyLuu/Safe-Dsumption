@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="App.css" title="style" />
+
+    <title>Skin Type Quiz</title>
+
+</head>
+
+<body>
+    <div class="background">
+         <div>
+            <!-- <h1 class="header">Safe Dsumption</h1> -->
+            <ul class="nav">
+                
+                <a id="SafeDsumption" href="Home.html">Safe Dsumption</a>
+                <li> <a id="HOME" href="Home.html">Home</a></li>
+                <li> <a id="Quiz" href="skinTypeQuiz.html">Skin Type Quiz</a></li>
+                
+            </ul>
+        </div>
+        
+        <img src="./sunBeach.svg" class="logo" alt="logo">
+        <!-- <form>
+        <div class="input">
+            <input type="text" class="locationValue" placeholder="Enter your location">
+            <br>
+            <input type="text" class="cityName" placeholder="Enter city's name">
+            <br>
+            <input type="text" class="stateCode" placeholder="Enter state's code">
+            <br>
+            <input type="number" class="skinValue" placeholder="Enter your skin type">
+            <br> -->
+        <!-- <input class="latitude" id="latitude" type="text" placeholder="Latitude">
+            <br>
+            <input class="longtitude"  id="longtitude" type="text" placeholder="Longtitude">
+            <br> -->
+        <!-- <a href="#" id="skinType" class="button">Check</a> -->
+        <!-- <input id="skinType" class="button" type="submit" value="Check">
+            <br>
+        </div> -->
+
+        <!-- <div class="weatherContainer">
+            <h1 class="locationName"></h1>
+            <h2 class="temperature"></h2>
+            <h3 id="latitude" class="latitude"></h3>
+            <h3 id="longtitude" class="longtitude"></h3>
+            <img src="" alt="">
+        <div class="conversionBox">
+            <input id="convertToF" class="convertToF" type="submit" value="°F">
+            <input id="convertToC" class="convertToC" type="submit" value="°C">
+        </div> -->
+
+        <!-- <input id="uvIndex" onclick="test()" class="uvIndex" type="submit" value="UV Index"> -->
+
+        <!-- <a href="conversion.js" id="skinType" class="button">°C</a> -->
+        <!-- </div> -->
+        <!-- </form> -->
+
+
+
+
+
+
+        <!-- </div> -->
+        <div class="quizTitle"> <h1>Fitzpatrick Skin Type Quiz</h1></div>
+        <div class="quizForm">
+            <form name="quiz" id="quiz">
+                <div>
+                    <p class="question" name="question">1. What is your eye color?</p>
+                    <div class="mcs" >
+                    <p class="mc"> <input type="radio" name="qs1" value="Light blue, light gray or light green">Light
+                        blue, light gray or
+                        light green</p>
+                    <p class="mc"> <input type="radio" name="qs1" value="Blue, gray or green">Blue, gray or green</p>
+                    <p class="mc"> <input type="radio" name="qs1" value="Hazel or light brown">Hazel or light brown</p>
+                    <p class="mc"> <input type="radio" name="qs1" value="Dark brown">Dark brown</p>
+                    <p class="mc"> <input type="radio" name="qs1" value="Brownish black">Brownish black</p>
+                    </div>
+                  
+                </div>
+                <br>
+                <div>
+                    <p class="question">2. What is your hair color?</p>
+                    <div class=mcs >
+                        <p class="mc"> <input type="radio" name="qs2" value="Red or light blonde">Red or light blonde
+                        </p>
+                        <p class="mc"> <input type="radio" name="qs2" value="Blonde">Blonde</p>
+                        <p class="mc"> <input type="radio" name="qs2" value="Dark blonde or light brown">Dark blonde or
+                            light brown</p>
+                        <p class="mc"> <input type="radio" name="qs2" value="Dark brown">Dark brown</p>
+                        <p class="mc"> <input type="radio" name="qs2" value="Black">Black</p>
+                    </div>
+
+                </div>
+                <br>
+                <div>
+                    <p class="question">3. What is your skin color before sun exposure?</p>
+                    <div class=mcs>
+                        <p class="mc"> <input type="radio" name="qs3" value="Ivory white">Ivory white</p>
+                        <p class="mc"> <input type="radio" name="qs3" value="Fair or pale">Fair or pale</p>
+                        <p class="mc"> <input type="radio" name="qs3" value="Fair to beige, with golden undertone">Fair
+                            to beige, with golden
+                            undertone</p>
+                        <p class="mc"> <input type="radio" name="qs3" value="Olive or light brown">Olive or light brown
+                        </p>
+                        <p class="mc"> <input type="radio" name="qs3" value="Dark brown or black">Dark brown or black
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <p class="question">4. How many freckles are there on the unexposed areas of your skin?</p>
+                    <div class="mcs">
+                    <p class="mc"> <input type="radio" name="qs4" value="Many">Many</p>
+                    <p class="mc"> <input type="radio" name="qs4" value="Several">Several</p>
+                    <p class="mc"> <input type="radio" name="qs4" value="A few">A few</p>
+                    <p class="mc"> <input type="radio" name="qs4" value="Very few">Very few</p>
+                    <p class="mc"> <input type="radio" name="qs4" value="None">None</p>
+                </div>
+                </div>
+                <br>
+                <div>
+                    <p class="question">5. How easily do you get skin burn by sun exposure?</p>
+                    <div class="mcs">
+                    <p class="mc"> <input type="radio" name="qs5" value="Always burns, blisters and peels">Always burns,
+                        blisters and peels</p>
+                    <p class="mc"> <input type="radio" name="qs5" value="Often burns, blisters and peels">Often burns,
+                        blisters and peels</p>
+                    <p class="mc"> <input type="radio" name="qs5" value="Burns moderately">Burns moderately</p>
+                    <p class="mc"> <input type="radio" name="qs5" value="Burns rarely, if at all">Burns rarely, if at
+                        all</p>
+                    <p class="mc"> <input type="radio" name="qs5" value="Never burns">Never burns</p>
+               </div>
+                </div>
+                <br>
+                <div>
+                    <p class="question">6. Does your skin tan by sun exposure?</p>
+                    <div class="mcs">
+                    <p class="mc"> <input type="radio" name="qs6" value="Never"> Never</p>
+                    <p class="mc"> <input type="radio" name="qs6" value="Seldom">Seldom</p>
+                    <p class="mc"> <input type="radio" name="qs6" value="Sometimes">Sometimes</p>
+                    <p class="mc"> <input type="radio" name="qs6" value="Often">Often</p>
+                    <p class="mc"> <input type="radio" name="qs6" value="Always">Always</p>
+                </div>
+                </div>
+                <br>
+                <div>
+                    <p class="question">7. How deeply do you tan?</p>
+                    <div class="mcs">
+                    <p class="mc"> <input type="radio" name="qs7" value="Very little or Not at all">Very little or Not
+                        at all</p>
+                    <p class="mc"> <input type="radio" name="qs7" value="Lightly">Lightly</p>
+                    <p class="mc"> <input type="radio" name="qs7" value="Moderately">Moderately</p>
+                    <p class="mc"> <input type="radio" name="qs7" value="Deeply">Deeply</p>
+                    <p class="mc"> <input type="radio" name="qs7" value="Natural dark">Natural dark</p>
+                </div>
+                </div>
+                <br>
+                <div>
+                    <p class="question">8. How sensitive is your face to the sun?</p>
+                    <div class="mcs">
+                    <p class="mc"> <input type="radio" name="qs8" value="Very sensitive">Very sensitive</p>
+                    <p class="mc"> <input type="radio" name="qs8" value="Sensitive">Sensitive</p>
+                    <p class="mc"> <input type="radio" name="qs8" value="Normal">Normal</p>
+                    <p class="mc"> <input type="radio" name="qs8" value="Resistant">Resistant</p>
+                    <p class="mc"> <input type="radio" name="qs8" value="Never had a problem">Never had a problem</p>
+                </div>
+                </div>
+              
+                <input type="button" name="" id="check" value="Check Skin Type" onclick="checkAnswer()">
+                <input type="button" name="" id="check" value="Return to Main Page" onclick="history.back()">
+<!-- id value should not equal to the onclick function!-->
+                <div class="outputSkin">
+                    <p class="type" id="testScore"></p>
+                    <p class="type" id="type"></p>
+
+                </div>
+        </div>
+        </form>
+    </div>
+    <script src="skinTypeQuiz.js"></script>
+</body>
+
+</html>
